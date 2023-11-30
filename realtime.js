@@ -3,97 +3,97 @@ document.addEventListener('DOMContentLoaded', () => {
    //////////////////////////////////////////////////////////////////////////////////////////////////
     const previousSellPrice = parseFloat(sessionStorage.getItem('previousSellPrice')) || null;
     const previousBuyPrice = parseFloat(sessionStorage.getItem('previousBuyPrice')) || null;
-    const previousPriceChange = parseFloat(sessionStorage.getItem('previousPriceChange')) || 0;
+    //const previousPriceChange = parseFloat(sessionStorage.getItem('previousPriceChange')) || 0;
     
     // แสดงราคาล่าสุดบนหน้าเว็บ
     if (previousSellPrice !== null && previousBuyPrice !== null) {
-        priceAElement.textContent = previousSellPrice;
-        priceBElement.textContent = previousBuyPrice;
-        priceCElement.textContent = previousPriceChange.toFixed(2);
+        priceAElement.textContent = previousSellPrice.toLocaleString();
+        priceBElement.textContent = previousBuyPrice.toLocaleString();
+        //priceCElement.textContent = previousPriceChange.toFixed(2);
     }
     
     //////////////////////////////////////////////////////////////////////////////////////////////
 
     const previousSellPrice_2 = parseFloat(sessionStorage.getItem('previousSellPrice_2')) || null;
     const previousBuyPrice_2 = parseFloat(sessionStorage.getItem('previousBuyPrice_2')) || null;
-    const previousPriceChange_2 = parseFloat(sessionStorage.getItem('previousPriceChange_2')) || 0;
+    //const previousPriceChange_2 = parseFloat(sessionStorage.getItem('previousPriceChange_2')) || 0;
     
     // แสดงราคาล่าสุดบนหน้าเว็บ
     if (previousSellPrice_2 !== null && previousBuyPrice_2 !== null) {
         priceDElement.textContent = previousSellPrice_2;
-        priceEElement.textContent = previousBuyPrice_2;
-        priceFElement.textContent = previousPriceChange_2.toFixed(2);
+        priceEElement.textContent = previousBuyPrice_2.toLocaleString();
+        //priceFElement.textContent = previousPriceChange_2.toFixed(2);
     }
     //////////////////////////////////////////////////////////////////////////////////////////////
 
     const previousSellPrice_3 = parseFloat(sessionStorage.getItem('previousSellPrice_3')) || null;
     const previousBuyPrice_3 = parseFloat(sessionStorage.getItem('previousBuyPrice_3')) || null;
-    const previousPriceChange_3 = parseFloat(sessionStorage.getItem('previousPriceChange_3')) || 0;
+    //const previousPriceChange_3 = parseFloat(sessionStorage.getItem('previousPriceChange_3')) || 0;
     
     // แสดงราคาล่าสุดบนหน้าเว็บ
     if (previousSellPrice_3 !== null && previousBuyPrice_3 !== null) {
         priceGElement.textContent = previousSellPrice_3;
-        priceHElement.textContent = previousBuyPrice_3;
-        priceIElement.textContent = previousPriceChange_3.toFixed(2);
+        priceHElement.textContent = previousBuyPrice_3.toLocaleString();
+        //priceIElement.textContent = previousPriceChange_3.toFixed(2);
     }
     /////////////////////////////////////////////////////////////////////////////////////////////
 
     const previousSellPrice_4 = parseFloat(sessionStorage.getItem('previousSellPrice_4')) || null;
     const previousBuyPrice_4 = parseFloat(sessionStorage.getItem('previousBuyPrice_4')) || null;
-    const previousPriceChange_4 = parseFloat(sessionStorage.getItem('previousPriceChange_4')) || 0;
+    //const previousPriceChange_4 = parseFloat(sessionStorage.getItem('previousPriceChange_4')) || 0;
     
     // แสดงราคาล่าสุดบนหน้าเว็บ
     if (previousSellPrice_4 !== null && previousBuyPrice_4 !== null) {
         priceJElement.textContent = previousSellPrice_4;
-        priceKElement.textContent = previousBuyPrice_4;
-        priceLElement.textContent = previousPriceChange_4.toFixed(2);
+        priceKElement.textContent = previousBuyPrice_4.toLocaleString();
+        //priceLElement.textContent = previousPriceChange_4.toFixed(2);
     }
 
     /////////////////////////////////////////////////////////////////////////////////////////////
 
     const previousSellPrice_5 = parseFloat(sessionStorage.getItem('previousSellPrice_5')) || null;
     const previousBuyPrice_5 = parseFloat(sessionStorage.getItem('previousBuyPrice_5')) || null;
-    const previousPriceChange_5 = parseFloat(sessionStorage.getItem('previousPriceChange_5')) || 0;
+    //const previousPriceChange_5 = parseFloat(sessionStorage.getItem('previousPriceChange_5')) || 0;
     
     // แสดงราคาล่าสุดบนหน้าเว็บ
     if (previousSellPrice_5 !== null && previousBuyPrice_5 !== null) {
         priceMElement.textContent = previousSellPrice_5;
-        priceNElement.textContent = previousBuyPrice_5;
-        priceOElement.textContent = previousPriceChange_5.toFixed(2);
+        priceNElement.textContent = previousBuyPrice_5.toLocaleString();
+        //priceOElement.textContent = previousPriceChange_5.toFixed(2);
     }
     //////////////////////////////////////////////////////////////////////////////////////////////
     const previousSellPrice_6 = parseFloat(sessionStorage.getItem('previousSellPrice_6')) || null;
     const previousBuyPrice_6 = parseFloat(sessionStorage.getItem('previousBuyPrice_6')) || null;
-    const previousPriceChange_6 = parseFloat(sessionStorage.getItem('previousPriceChange_6')) || 0;
+    //const previousPriceChange_6 = parseFloat(sessionStorage.getItem('previousPriceChange_6')) || 0;
     
     // แสดงราคาล่าสุดบนหน้าเว็บ
     if (previousSellPrice_6 !== null && previousBuyPrice_6 !== null) {
         pricePElement.textContent = previousSellPrice_6;
-        priceQElement.textContent = previousBuyPrice_6;
-        priceRElement.textContent = previousPriceChange_6.toFixed(2);
+        priceQElement.textContent = previousBuyPrice_6.toLocaleString();
+        //priceRElement.textContent = previousPriceChange_6.toFixed(2);
     }
 
      //////////////////////////////////////////////////////////////////////////////////////////////
      const previousSellPrice_7 = parseFloat(sessionStorage.getItem('previousSellPrice_7')) || null;
      const previousBuyPrice_7 = parseFloat(sessionStorage.getItem('previousBuyPrice_7')) || null;
-     const previousPriceChange_7 = parseFloat(sessionStorage.getItem('previousPriceChange_7')) || 0;
+     //const previousPriceChange_7 = parseFloat(sessionStorage.getItem('previousPriceChange_7')) || 0;
      
      // แสดงราคาล่าสุดบนหน้าเว็บ
      if (previousSellPrice_7 !== null && previousBuyPrice_7 !== null) {
          priceSElement.textContent = previousSellPrice_7;
-         priceTElement.textContent = previousBuyPrice_7;
-         priceUElement.textContent = previousPriceChange_7.toFixed(2);
+         priceTElement.textContent = previousBuyPrice_7.toLocaleString();
+         //priceUElement.textContent = previousPriceChange_7.toFixed(2);
      }
      //////////////////////////////////////////////////////////////////////////////////////////////
      const previousSellPrice_8= parseFloat(sessionStorage.getItem('previousSellPrice_8')) || null;
      const previousBuyPrice_8 = parseFloat(sessionStorage.getItem('previousBuyPrice_8')) || null;
-     const previousPriceChange_8 = parseFloat(sessionStorage.getItem('previousPriceChange_8')) || 0;
+     //const previousPriceChange_8 = parseFloat(sessionStorage.getItem('previousPriceChange_8')) || 0;
      
      // แสดงราคาล่าสุดบนหน้าเว็บ
      if (previousSellPrice_8 !== null && previousBuyPrice_8 !== null) {
          priceVElement.textContent = previousSellPrice_8;
-         priceWElement.textContent = previousBuyPrice_8;
-         priceXElement.textContent = previousPriceChange_8.toFixed(2);
+         priceWElement.textContent = previousBuyPrice_8.toLocaleString();
+         //priceXElement.textContent = previousPriceChange_8.toFixed(2);
      }
 });
 
@@ -103,46 +103,46 @@ const socket = new WebSocket('wss://www.sctgold.com/primepush/productPrice/100/O
 //////////////////////////////////////////////////////////////////////////////////////////////////
 const priceAElement = document.getElementById('priceA');
 const priceBElement = document.getElementById('priceB');
-const priceCElement = document.getElementById('priceC');
+//const priceCElement = document.getElementById('priceC');
 //////////////////////////////////////////////////////////////////////////////////////////////////
 const priceDElement = document.getElementById('priceD');
 const priceEElement = document.getElementById('priceE');
-const priceFElement = document.getElementById('priceF');
+//const priceFElement = document.getElementById('priceF');
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
 const priceGElement = document.getElementById('priceG');
 const priceHElement = document.getElementById('priceH');
-const priceIElement = document.getElementById('priceI');
+//const priceIElement = document.getElementById('priceI');
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
 const priceJElement = document.getElementById('priceJ');
 const priceKElement = document.getElementById('priceK');
-const priceLElement = document.getElementById('priceL');
+//const priceLElement = document.getElementById('priceL');
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
 const priceMElement = document.getElementById('priceM');
 const priceNElement = document.getElementById('priceN');
-const priceOElement = document.getElementById('priceO');
+//const priceOElement = document.getElementById('priceO');
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
 const pricePElement = document.getElementById('priceP');
 const priceQElement = document.getElementById('priceQ');
-const priceRElement = document.getElementById('priceR');
+//const priceRElement = document.getElementById('priceR');
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
 const priceSElement = document.getElementById('priceS');
 const priceTElement = document.getElementById('priceT');
-const priceUElement = document.getElementById('priceU');
+//const priceUElement = document.getElementById('priceU');
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
 const priceVElement = document.getElementById('priceV');
 const priceWElement = document.getElementById('priceW');
-const priceXElement = document.getElementById('priceX');
+//const priceXElement = document.getElementById('priceX');
 //////////////////////////////////////////////////////////////////////////////////////////////////
 // สร้างตัวแปรเพื่อเก็บราคาก่อนหน้าและ Timestamp
-let previousSellPrice = parseFloat(sessionStorage.getItem('previousSellPrice')) || null;
-let previousPriceChange = parseFloat(sessionStorage.getItem('previousPriceChange')) || 0;
+//let previousSellPrice = parseFloat(sessionStorage.getItem('previousSellPrice')) || null;
+//let previousPriceChange = parseFloat(sessionStorage.getItem('previousPriceChange')) || 0;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 let previousSellPrice_2 = parseFloat(sessionStorage.getItem('previousSellPrice_2')) || null;
